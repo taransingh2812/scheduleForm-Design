@@ -1,0 +1,131 @@
+/*main1.css*/
+/*Taran preet singh,000824301*/
+
+
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;}
+
+ body{
+   font-family: italics;
+   background-color:#FF4D55;
+   margin-bottom:10px;
+   margin-right:15px;
+   margin-left:15px;}
+
+   header{
+   display:flex;
+   flex-direction:column;
+   
+   }
+   
+   .trip{
+   background-color:#C5DAFC;
+   width:100%;
+   height:40px;
+   text-align:center;}
+   
+   .navs{
+   background-color:#6775B5;
+   width:100%;
+   height:40px;
+   text-align:center;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   
+    }
+   
+   .navs a{
+   border:2px solid black;
+   margin-right:20px;
+   background-color:gray;
+   color:white;
+   width:90px;
+   height:35px;
+   text-decoration:none;
+   padding-top:10px;
+   border-radius:1px 10px 1px 1px;
+   font-weight:bold;
+   }
+   
+   main{
+   
+   margin-top:30px;
+   margin-right:4%;
+  
+   width:100%;
+   height:auto;
+   background-color:#F5FF8A;
+   }
+   
+   #travelinfo{
+   margin-top:25px;
+   color:purple;
+   width:30%;
+   margin-right:10px;
+  
+   border: 2px dashed black;
+   background-color:#FFA6F0;
+   padding-left:10px;
+   height:430px;
+   margin-left:10px;
+   }
+   
+
+   
+    h2{
+   border:1px solid purple;
+   background-color:#FFF4E0;
+   border-radius:10px;
+   color:purple;
+  }
+   
+   #about{
+   margin-top:30px;
+   width:30%;
+   border:2px dashed black;
+   padding-left:10px;
+   margin-right:10px;
+   background-color: yellow;
+   height:350px;
+   }
+   
+   #tripreviews{
+     margin-top:30px;
+   width:auto;
+   border:2px dashed black;
+   padding-left:10px;
+   height:65%;
+   background-color:#899AFA}
+   
+   main{
+   display:flex;
+   flex-wrap:wrap;}
+   
+   table{
+   margin-left:40%;}
+   
+   #travelinfo input[type=checkbox]{
+   padding-left:20px;}
+   
+   input[type=submit]{
+   width:100px;
+   height:30px;
+   margin-right:5px;
+   background-color:lightskyblue;
+   }
+   
+   input[type=reset]{
+   width:100px;
+   background-color:lightskyblue;
+   height:30px;
+   }
+   
+   td img{
+	   width:10px;
+	   height:10px;
+	   border:1px solid red;
+	   float:left;
+   }

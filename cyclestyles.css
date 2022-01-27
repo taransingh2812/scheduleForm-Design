@@ -1,0 +1,134 @@
+/*main.css*/
+
+/*Taran preet singh,000824301*/
+
+
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;}
+
+   body{
+   font-family: Arial , Halvetica , sans-serif ;
+   border-bottom:2px solid black;
+   margin-bottom:10px;}
+
+   header{
+   display:flex;
+   flex-direction:column;
+   }
+   
+   .trip{
+   background-color:#c5DAFC;
+   width:100%;
+   height:40px;
+   text-align:center;}
+   
+   .navs{
+   background-color:#6775B5;
+   width:100%;
+   height:40px;
+   text-align:center;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   
+    }
+   
+   .navs a{
+   border:2px solid black;
+   margin-right:20px;
+   background-color:gray;
+   color:white;
+   width:90px;
+   height:35px;
+   text-decoration:none;
+   padding-top:10px;
+   border-radius:1px 10px 1px 1px;
+   font-weight:bold;
+   }
+
+  main{
+  margin-left:10%;
+  margin-right:10%;
+  }
+  
+  .secondTable{
+  
+  border:2px solid black;
+  border-collapse:collapse;}
+  
+  td{
+  border:2px solid black;}
+  
+ 
+		
+        thead td{
+        color:rgb(255,255,255);
+		background-color:#888888;
+		text-align:center;
+		height:50px;
+	    width:10.25%;}
+		
+		tbody td{
+
+		text-align:left;
+		height:50px;
+		padding:10px;
+		vertical-align:top;
+	    
+		}
+ 
+		.firstCol{
+		background-color: #DDEEFF;
+		}
+
+		.dust{
+		background-image: url('images/dust.jpg');
+		text-align:center;}
+		
+		caption{
+		caption-side:bottom;
+		text-align:right;
+		font-size: 0.9em;}
+		
+		
+		
+		.firstTable{
+		width:60%;
+		height:40px;
+		padding-bottom:15px;
+		}
+		.firstTable th{
+		border:none;
+		}
+		
+		.firstTable .colors{
+		width:20px;
+		height:40px;
+		}
+		
+		.secondTable th{
+		border:2px solid black;}
+		
+		.lgtblu{
+		background-color: lightskyblue;
+		}
+		
+		.grncol{
+		background-color:#ADFF2F;
+		}
+		
+		.prplcol{
+		background-color:#BA55D3;
+		}
+		
+		.pnkcol{
+		background-color:#FFB6C1;
+		}
+	
+	    .smallTable caption{
+			font-weight:bold;
+			margin-bottom:5px;
+		}
+	   

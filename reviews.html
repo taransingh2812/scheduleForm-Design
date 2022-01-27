@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <title>Cycling Tours</title>
+   <!--Taran preet singh,000824301-->
+   <link href="reviewsStyles.css" rel="stylesheet">
+   <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+ <form name ="ReviewForm" method="POST" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+
+<header>
+
+
+  <div class="trip">
+  <h1>Cycling Trip Seminars</h1>
+  </div>
+  
+  <div class="navs">
+  
+  <a href="reviews.html">Reviews</a>
+  <a href="seminars.html">Seminars</a>
+  
+  </div>
+  
+  </header>
+  
+  <main>
+  
+  <fieldset id="travelinfo">
+  
+     <legend><h2>What would you like to see in the future? (Check all that apply)</h2></legend>
+	 <br>
+	 <br>
+	 <input type="checkbox" name="interested" id="sightseeing" value="Sea or Lake Coast">
+	 <label for="sightseeing">Sea or Lake Coast</label>
+	 <br>
+	 <br>
+	  <input type="checkbox" name="interested" id="rural" value="Rural" >
+	 <label for="rural">Rural</label>
+	 <br>
+	 <br>
+	  <input type="checkbox" name="interested" id="mountains" checked="checked" value="Mountains">
+	 <label for="mountains">Mountains</label>
+	 <br>
+	 <br>
+	  <input type="checkbox" name="interested" id="kangaroos" value="kangaroos">
+	 <label for="kangaroos">Kangaroos having a stand-off</label>
+	 <br>
+	 <br>
+	  <input type="checkbox" name="interested" id="others" value="others">
+	 <label for="others">Others (please specify: )</label>
+	 <br>
+	 <br>
+	 <input type="text" name="interested" size="30" maxlength="30" 
+	 placeholder="enter if any other option in your mind!!">
+	 
+	 
+	 </fieldset>
+	 
+	 <fieldset id="about">
+	 
+	 <legend><h2>Tell Some Things About you:</h2></legend>
+	 <br> 
+	 
+	 <h4>At what season Do You Like To Take Trips? (check all that apply):</h4>
+	 <br>
+	 
+	 <input type="checkbox" name="pref" id="winters" value="winters">
+	 <label for="winters">Winter</label>
+	 <br>
+	 <input type="checkbox" name="pref" id="spring" value="spring">
+	 <label for="spring">Spring</label>
+	 <br>
+	 <input type="checkbox" name="pref" id="fall" value="fall">
+	 <label for="fall">Fall</label>
+	 <br>
+	 <input type="checkbox" name="pref" id="summer" value="summers">
+	 <label for="summer">Summer</label>
+	 
+	 <br>
+	 <br>
+	 
+	
+	 
+	 First Name:
+	 <input type="text" name="First name" id="firstname" size="20" maxlength="20">
+	 
+	 <br>
+	 <br>
+	 
+	 Last Name:
+	 <input type="text" name="Last name" id="lastname" size="20" maxlength="20">
+	 <br>
+	 <br>
+	 <br>
+	 
+	 Phone Number:
+	 <input type="tel" name="Phone number" id="phone" size="12" maxlength="12" placeholder="123-456-7891">
+	 <br>
+	 <br>
+	 
+	 E-Mail Address:
+	 <input type="email" name="E-mail" id="email" size="20" maxlength="40" placeholder="something@email.com">
+	
+ </fieldset>  
+ 
+ <fieldset id="tripreviews">
+     
+	 <legend><h2> Trip a Review</h2></legend>
+	 <br>
+	 <select name="trip">
+	 <option>Alberta Rural</option>
+	 <option>B.C. Coast</option>
+	 <option>Ontario Lake Superior</option>
+	 <option>PEI</option>
+	 <option selected>Nova Scotia Cabot Trail</option>
+	 </select>
+	 
+	 <select name="Duration">
+	 <option selected>5 Days</option>
+	 <option>7 Days</option>
+	 <option>10 Days</option>
+	 <option>14 Days</option>
+	 </select>
+	 <br>
+	 
+	 <h4>How Do you Rate It?</h4>
+	 
+	 
+	 <input type="radio" name="ratings" id="1star" value ="1" >
+	 <label for="1star">1-star</label>
+	 <br>
+	 
+	 <input type="radio" name="ratings" id="2star" value ="2">
+	 <label for="2star">2-star</label>
+	 <br>
+	 <input type="radio" name="ratings" id="3star" value ="3" >
+	 <label for="3star">3-star</label>
+	 <br>
+	 <input type="radio" name="ratings" id="4star" value ="4" >
+	 <label for="4star">4-star</label>
+	 <br>
+	 <input type="radio" name="ratings" id="5star" value ="5" >
+	 <label for="5star">5-star</label>
+	 <br>
+  Comment Your Thoughts on Your Experience
+<br>
+<textarea name="comments" rows="7" cols="65">
+</textarea>
+
+</fieldset>
+ </main>
+ 
+ <footer>
+   <table>
+   <tr>
+      <td>
+	     <input type="submit" name="go" value="Send a Review"></td>
+		 
+		 <td>
+		 <input type="reset" name="reset button" value="Reset Form">
+		 <input type="hidden" name="formname" value="Taran Preet Singh trip review">
+		 
+		 </td>
+	     </tr>
+		 
+		 </table>
+</footer>
+
+	 
+  
+  
+
+
+
+</form>
+
+</body>
+
+</html>
